@@ -1,0 +1,110 @@
+.about-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .about-content {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .about-stanza {
+    font-size: 1.2rem;
+    color: #ffffff;
+    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+  }
+  
+  .hover-title {
+    position: absolute;
+    top: 10px; /* Position above the stanza */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0; /* Initially hidden */
+    font-weight: bold;
+    font-size: 1.5rem;
+    width:100%;
+    color: #ffffff;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .about-content:hover .about-stanza {
+    font-size: 1.5rem; /* Enlarged font */
+    color: transparent; /* Darker text */
+    transform: translateY(-20px); /* Move up slightly */
+  }
+  
+  .about-content:hover .hover-title {
+    top: 10px !important;
+    opacity: 1; /* Fade-in effect */
+    transform: translate(-50%, -10px); /* Slight animation */
+    word-break: keep-all;
+    line-break: strict;
+  }
+  
+
+
+  
+
+  /* split view */
+
+  .about-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .left-side {
+    width: 50%; /* Take up half the screen width */
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .right-side {
+    width: 50%; /* Take up the other half of the screen */
+    overflow-y: auto; /* Make this side scrollable */
+    padding: 20px;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-stanza {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hover-title p {
+    font-size: 1rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .h-28 {
+    height: 7rem;
+  }
+  
+  .w-46 {
+    width: 11.5rem;
+  }
+  
