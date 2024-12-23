@@ -5,11 +5,10 @@ import About from "./_components/about";
 import Company from "./_components/company";
 export default function Index() {
   return (
-    <main >
+    <main>
       <Container>
         <section>
           <About />
-          
         </section>
       </Container>
     </main>

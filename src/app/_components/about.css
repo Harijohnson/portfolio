@@ -1,4 +1,5 @@
 .about-container {
+    height:79vh !important;
     text-align: center;
     margin-top: 50px;
     font-family: Arial, sans-serif;
@@ -56,22 +57,25 @@
 
   .about-container {
     display: flex;
-    height: 100vh; /* Full viewport height */
   }
   
   .left-side {
     width: 50%; /* Take up half the screen width */
     padding: 20px;
     overflow: hidden;
+    height:72vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    position: sticky !important;
   }
   
   .right-side {
     width: 50%; /* Take up the other half of the screen */
-    overflow-y: auto; /* Make this side scrollable */
+    overflow-y: scroll; /* Make this side scrollable */
     padding: 20px;
+    height:72vh;
+
   }
   
   .about-title {
