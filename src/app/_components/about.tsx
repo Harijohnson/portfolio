@@ -40,7 +40,7 @@ function About() {
   return (
     <div className="about-container">
       <div className="left-side flex items-center justify-center">
-        <h1 className="about-title">Harikrishnan N</h1>
+        <h1 className="about-title">Harikrishnan</h1>
         <div className="about-content ">
           <p className="about-stanza">
             "Think Pythonic, build iconic", a full-stack pro,
