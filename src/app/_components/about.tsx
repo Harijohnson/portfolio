@@ -39,8 +39,8 @@ import What_i_do from "./what_i_do";
 
 function About() {
   return (
-    <div className="about-container">
-      <div className="left-side flex items-center justify-center">
+    <div className="flex">
+      <div className="left-side flex items-center justify-center about-container">
         <h1 className="about-title">Harikrishnan</h1>
         <div className="about-content ">
           <p className="about-stanza">

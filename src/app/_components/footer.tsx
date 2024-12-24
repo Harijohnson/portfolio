@@ -3,9 +3,9 @@ import Container from "./container";
 
 export function Footer() {
   return (
-    <footer className="flex h-24 w-full items-center justify-center border-t">
+    <footer >
       <Container>
-        <div className="">
+        <div className="flex  items-center justify-center border-t h-24">
           <h3 className="text-center">
           Copyright Hari - 2024
           </h3>

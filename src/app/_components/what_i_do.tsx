@@ -3,8 +3,8 @@ import React from 'react';
 function WhatIDo() {
   return (
     <div className="  p-8 rounded-lg shadow-lg max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4  pb-2">Here is what I Do?</h1>
-      <div className="flex justify-center mb-4">
+      <h1 className="text-3xl font-bold mb-4  pb-2">About</h1>
+      <div className="  mb-4">
         
       </div>
       <p className="text-lg leading-relaxed mb-4">

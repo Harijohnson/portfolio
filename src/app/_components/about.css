@@ -1,8 +1,6 @@
 .about-container {
-    height:79vh !important;
     text-align: center;
     margin-top: 50px;
-    font-family: Arial, sans-serif;
   }
   
   .about-title {
@@ -55,9 +53,7 @@
 
   /* split view */
 
-  .about-container {
-    display: flex;
-  }
+
   
   .left-side {
     width: 50%; /* Take up half the screen width */
@@ -72,7 +68,6 @@
   
   .right-side {
     width: 50%; /* Take up the other half of the screen */
-    overflow-y: scroll; /* Make this side scrollable */
     padding: 20px;
     height:72vh;
 

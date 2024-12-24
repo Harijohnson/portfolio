@@ -10,17 +10,17 @@ const Header = () => {
       </h2>
       <div className="flex space-x-6">
         <h4>
-          <Link href="/" className="hover:underline">
+          <Link href="/work" className="hover:underline">
             Work
           </Link>
         </h4>
         <h4>
-          <Link href="/" className="hover:underline">
+          <Link href="/experiment" className="hover:underline">
             Experiment
           </Link>
         </h4>
         <h4>
-          <Link href="/" className="hover:underline">
+          <Link href="/inspirations" className="hover:underline">
             Inspirations
           </Link>
         </h4>
