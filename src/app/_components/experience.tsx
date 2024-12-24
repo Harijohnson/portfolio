@@ -22,8 +22,15 @@ const Experience: React.FC = () => {
               <img src="svgs/geeksforgeeks-svgrepo-com.svg" alt="GeeksForGeeks" className='h-10 w-10 svg-color' />
             </a>
             <div className="flex align-center justify-center">
+            
             <a href="pdf/hari-resume.pdf" target="_blank" className='m-auto'>
-              <span className='text-xl font-bold'>Resume</span>
+              <p className='text-xl font-bold flex items-center justify-center'> 
+                <>Resume 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-up-right-circle-fill mx-1" viewBox="0 0 16 16">
+                <path d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8m5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707z"></path>
+                </svg>
+                </>
+              </p>
               {/* <img src="svgs/arrow-up-right-svgrepo-com.svg" alt="Resume" className='h-5 w-4 svg-color' /> */}
             </a>
             </div>

@@ -35,6 +35,7 @@ import React from "react";
 import "./about.css"; // Ensure this CSS file is correctly linked
 import Company from "./company";
 import Experience from "./experience";
+import What_i_do from "./what_i_do";
 
 function About() {
   return (
@@ -62,6 +63,7 @@ function About() {
         </div>
       </div>
       <div className="right-side">
+        <What_i_do />
         <Experience />
       </div>
     </div>
