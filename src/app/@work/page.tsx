@@ -7,10 +7,10 @@ function page() {
       <div >
         <div className='flex grid grid-rows-2 grid-flow-col gap-4'>
           <div className='row-span-3 '>
-            <p className=' text-lg  font-bold'>Webchirpy   2024-03 - current</p>
+            <p className=' text-lg  font-bold'> 2024-03 - current</p>
           </div>
           <div className='row-span-3 '> 
-            <p className=' text-lg  font-bold mb-3'>Full-Stack Developer</p>
+            <p className=' text-lg  font-bold mb-3'> Webchirpy  -  Full-Stack Developer</p>
             <p>
             At WebChirpy, I’m a Django Full-Stack Developer by day and a code whisperer by night, 
             crafting web magic that works like a charm. My days are a mix of taming REST APIs,
@@ -50,10 +50,10 @@ function page() {
         </div>
         <div className="flex grid grid-rows-2 grid-flow-col gap-7">
           <div className='row-span-3 '>
-              <p className=' text-lg  font-bold'>Softcrylic Technology   2023-08 - 2023-11</p>
+              <p className=' text-lg  font-bold'> 2023-08 - 2023-11</p>
           </div>
           <div className='row-span-3 '> 
-            <p className=' text-lg  font-bold mb-3'>Python Developer Intern </p>
+            <p className=' text-lg  font-bold mb-3'>Softcrylic Technology  -  Python Developer Intern </p>
             <p>
               During my three-month internship at Softcrylic, I gained practical experience in Python programming,
               focusing on data manipulation and analysis. My primary responsibilities included working with NumPy and 

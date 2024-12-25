@@ -15,7 +15,7 @@ function WhatIDo() {
         From wrangling Django on the backend to taming Next.js on the frontend, I thrive on creating seamless user experiences.
       </p>
       <p className="text-lg leading-relaxed mb-4">
-        With over 300 DSA problems solved and expertise in REST APIs, SQL databases, I’m always ready to tackle challenges with a touch of fun and a lot of code!
+        With over 300+ DSA problems solved and expertise in REST APIs, SQL databases, I’m always ready to tackle challenges with a touch of fun and a lot of code!
       </p>
     </div>
   );

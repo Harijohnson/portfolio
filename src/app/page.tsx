@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <main>
       <Container>
-        <section>
+        <section className="my-2">
           <About />
         </section>
       </Container>

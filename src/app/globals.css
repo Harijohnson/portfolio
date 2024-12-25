@@ -23,5 +23,19 @@ body {
 .min-h-screen {
   overflow: auto !important;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  min-height: 100% !important;
+}
+
+
+/* add the code bellow */ 
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none !important;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none !important;  /* IE and Edge */
+      scrollbar-width: none !important;  /* Firefox */
+}
 }

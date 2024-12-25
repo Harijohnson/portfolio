@@ -59,7 +59,7 @@
     width: 50%; /* Take up half the screen width */
     padding: 20px;
     overflow: hidden;
-    height:72vh;
+    height:100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -69,9 +69,14 @@
   .right-side {
     width: 50%; /* Take up the other half of the screen */
     padding: 20px;
-    height:72vh;
-
+    height: 85vh;
+    overflow: hidden;
   }
+
+  .right-side:hover {
+    overflow: scroll !important;
+  }
+
   
   .about-title {
     font-size: 2rem;
