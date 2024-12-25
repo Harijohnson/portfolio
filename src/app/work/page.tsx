@@ -5,7 +5,7 @@ function page() {
   return (
     <Container>
       <div >
-        <div className='flex grid grid-rows-2 grid-flow-col gap-7'>
+        <div className='flex grid grid-rows-2 grid-flow-col gap-4'>
           <div className='row-span-3 '>
             <p className=' text-lg  font-bold'>Webchirpy   2024-03 - current</p>
           </div>
@@ -50,7 +50,7 @@ function page() {
         </div>
         <div className="flex grid grid-rows-2 grid-flow-col gap-7">
           <div className='row-span-3 '>
-              <p className=' text-lg  font-bold'>Softcrylic    2023-08 - 2023-11</p>
+              <p className=' text-lg  font-bold'>Softcrylic Technology   2023-08 - 2023-11</p>
           </div>
           <div className='row-span-3 '> 
             <p className=' text-lg  font-bold mb-3'>Python Developer Intern </p>
