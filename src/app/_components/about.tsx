@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css"; // Ensure this CSS file is correctly linked
-import Company from "./company";
 import Experience from "./experience";
 import What_i_do from "./what_i_do";
 
