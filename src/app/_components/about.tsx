@@ -10,11 +10,11 @@ function About() {
         <h1 className="about-title">Harikrishnan</h1>
         <div className="about-content ">
           <p className="about-stanza">
-            "Think Pythonic, build iconic", a full-stack pro,
+            &quot;Think Pythonic, build iconic&quot;, a full-stack pro,
             <br />
             From robust backends to frontends aglow.
             <br />
-            With Django’s might and JavaScript’s flair,
+            With Django's might and JavaScript's flair,
             <br />
             Crafting solutions beyond compare.
           </p>
