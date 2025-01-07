@@ -14,7 +14,7 @@ function About() {
             <br />
             From robust backends to frontends aglow.
             <br />
-            With Django's might and JavaScript's flair,
+            With Django&apos;s might and JavaScript&apos;s flair,
             <br />
             Crafting solutions beyond compare.
           </p>
