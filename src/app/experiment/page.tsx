@@ -28,6 +28,13 @@ function page() {
           </div>
           <a href="#">pixel-draw</a>
         </div>
+        <div className='p-5'>
+          <h3>Pixel Face  </h3>
+          <div>
+
+          </div>
+          <a href="#">pixel Face</a>
+        </div>
       </div>
     </Container>
   )
