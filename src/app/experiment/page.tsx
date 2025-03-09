@@ -1,6 +1,5 @@
 import React from 'react'
 import Container from '../_components/container'
-import Link from 'public/svgs/link.svg';
 
 function page() {
   return (
@@ -24,7 +23,7 @@ function page() {
             <p>
               DevJoke is a fun web app where developers can share and enjoy programming jokes, 
               memes, and funny chat-style templates. Whether you need a break from coding or 
-              just want a good laugh, DevJoke's got you covered!
+              just want a good laugh, DevJoke&lsquo;s got you covered!
             </p>
             <p className='mt-2'>
               <span>
@@ -77,7 +76,7 @@ function page() {
           
           <div className='w-full md:w-2/4'>
             <p>
-             Cube Me is a playful 3D web project featuring three all-black Rubik's cubes floating in a virtual space. Built with Three.js and Vite, the project offers a smooth and interactive 3D experience, all hosted seamlessly on Netlify.
+             Cube Me is a playful 3D web project featuring three all-black Rubik&lsquo;s cubes floating in a virtual space. Built with Three.js and Vite, the project offers a smooth and interactive 3D experience, all hosted seamlessly on Netlify.
             </p>
             <p className='mt-2'>
               <strong>What Makes It Cool:</strong> Three.js Magic brings the 3D cubes to life with realistic lighting and smooth animations, Vite-Powered for fast loading, and Netlify Hosting keeps everything live and ready for visitors.

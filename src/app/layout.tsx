@@ -1,4 +1,3 @@
-import Footer from "./_components/footer"; 
 import Header from "./_components/header"; 
 import type { Metadata } from "next"; 
 import { Inter, Plus_Jakarta_Sans } from "next/font/google"; 
